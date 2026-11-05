@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		417518FD570D894DE4296B73 /* SignBridgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435A279C85393C6A6383E3C /* SignBridgeApp.swift */; };
+		79D5CAFA8E547930A2B41EA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6053D1E143B50DB648D10A1D /* Assets.xcassets */; };
+		C1EBE9E1FDD360B0314B2ECF /* MenuBarPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DABF28081DE4B3234D7BB4 /* MenuBarPanel.swift */; };
+		C483EB1B079CD2C045859163 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695E2951DF571B08C723DAB3 /* SettingsView.swift */; };
+		C5C9608C76B52CD55D0BECD4 /* icon-master.png in Resources */ = {isa = PBXBuildFile; fileRef = D442E12AFF70CA9CD632734A /* icon-master.png */; };
+		DD423A7ED29C7BA97D1B737C /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D451371287BC660584118FA1 /* AppModel.swift */; };
+		E17395B8E6B4C5480AE46169 /* SignBridgeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402E546B48C2A1E14F543EED /* SignBridgeClient.swift */; };
+		F27F9BF7AD069BE0F2526A93 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6252D70113A17083A694914A /* Models.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		402E546B48C2A1E14F543EED /* SignBridgeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignBridgeClient.swift; sourceTree = "<group>"; };
+		5BEBF5354FC57EA2FA5D90F2 /* SignBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6053D1E143B50DB648D10A1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6252D70113A17083A694914A /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		695E2951DF571B08C723DAB3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B9DABF28081DE4B3234D7BB4 /* MenuBarPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarPanel.swift; sourceTree = "<group>"; };
+		D442E12AFF70CA9CD632734A /* icon-master.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-master.png"; sourceTree = "<group>"; };
+		D451371287BC660584118FA1 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		F435A279C85393C6A6383E3C /* SignBridgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignBridgeApp.swift; sourceTree = "<group>"; };
+		F87ECF4EB0A06ADC202174F9 /* Supporting */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Supporting; path = SignBridge/Supporting; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		209FBB07B05E97E41A29ACD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BEBF5354FC57EA2FA5D90F2 /* SignBridge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43D34D2AE4CAC92B0D5EC04D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D451371287BC660584118FA1 /* AppModel.swift */,
+				B9DABF28081DE4B3234D7BB4 /* MenuBarPanel.swift */,
+				6252D70113A17083A694914A /* Models.swift */,
+				695E2951DF571B08C723DAB3 /* SettingsView.swift */,
+				F435A279C85393C6A6383E3C /* SignBridgeApp.swift */,
+				402E546B48C2A1E14F543EED /* SignBridgeClient.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		59A37DA5D03A9921522E5B94 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6053D1E143B50DB648D10A1D /* Assets.xcassets */,
+				D442E12AFF70CA9CD632734A /* icon-master.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6693A2B47A43656C9B2A6211 /* SignBridge */ = {
+			isa = PBXGroup;
+			children = (
+				F87ECF4EB0A06ADC202174F9 /* Supporting */,
+				59A37DA5D03A9921522E5B94 /* Resources */,
+				43D34D2AE4CAC92B0D5EC04D /* Sources */,
+			);
+			path = SignBridge;
+			sourceTree = "<group>";
+		};
+		932E5A8E95B1D3AB146FD1BE = {
+			isa = PBXGroup;
+			children = (
+				6693A2B47A43656C9B2A6211 /* SignBridge */,
+				209FBB07B05E97E41A29ACD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88E315DA0E8134562C3B4DBD /* SignBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF03CADC0C94913F0FEB08E0 /* Build configuration list for PBXNativeTarget "SignBridge" */;
+			buildPhases = (
+				808D0EC0588C2665BBCBFC19 /* Sources */,
+				DCDBF4356DDEB400012E6A8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignBridge;
+			packageProductDependencies = (
+			);
+			productName = SignBridge;
+			productReference = 5BEBF5354FC57EA2FA5D90F2 /* SignBridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E7DCB6C313F3B8C837FA7F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = B4644A9A2A669B2ED6E665B0 /* Build configuration list for PBXProject "SignBridge" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 932E5A8E95B1D3AB146FD1BE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 209FBB07B05E97E41A29ACD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88E315DA0E8134562C3B4DBD /* SignBridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCDBF4356DDEB400012E6A8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D5CAFA8E547930A2B41EA5 /* Assets.xcassets in Resources */,
+				C5C9608C76B52CD55D0BECD4 /* icon-master.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		808D0EC0588C2665BBCBFC19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD423A7ED29C7BA97D1B737C /* AppModel.swift in Sources */,
+				C1EBE9E1FDD360B0314B2ECF /* MenuBarPanel.swift in Sources */,
+				F27F9BF7AD069BE0F2526A93 /* Models.swift in Sources */,
+				C483EB1B079CD2C045859163 /* SettingsView.swift in Sources */,
+				417518FD570D894DE4296B73 /* SignBridgeApp.swift in Sources */,
+				E17395B8E6B4C5480AE46169 /* SignBridgeClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2776A4ACB9B78B0C6B64A17F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SignBridge/Supporting/SignBridge.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SignBridge/Supporting/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © Hunchbite Technologies";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hunchbite.signbridge;
+				PRODUCT_NAME = SignBridge;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2ACFA71D5D3E145AD89892DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.10;
+			};
+			name = Release;
+		};
+		5B4742B3EF9F2EB86D6A1401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SignBridge/Supporting/SignBridge.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SignBridge/Supporting/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © Hunchbite Technologies";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hunchbite.signbridge;
+				PRODUCT_NAME = SignBridge;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7C588932A5D6A28AC2CDE2E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.10;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4644A9A2A669B2ED6E665B0 /* Build configuration list for PBXProject "SignBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C588932A5D6A28AC2CDE2E7 /* Debug */,
+				2ACFA71D5D3E145AD89892DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CF03CADC0C94913F0FEB08E0 /* Build configuration list for PBXNativeTarget "SignBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4742B3EF9F2EB86D6A1401 /* Debug */,
+				2776A4ACB9B78B0C6B64A17F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E7DCB6C313F3B8C837FA7F8 /* Project object */;
+}

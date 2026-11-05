@@ -1,0 +1,40 @@
+name: SignBridge
+options:
+  bundleIdPrefix: com.hunchbite
+  deploymentTarget:
+    macOS: "14.0"
+  createIntermediateGroups: true
+  developmentLanguage: en
+settings:
+  base:
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    SWIFT_VERSION: "5.10"
+    MACOSX_DEPLOYMENT_TARGET: "14.0"
+targets:
+  SignBridge:
+    type: application
+    platform: macOS
+    sources:
+      - path: SignBridge/Sources
+      - path: SignBridge/Resources
+        buildPhase: resources
+      - path: SignBridge/Supporting
+        buildPhase: none
+        type: folder
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.hunchbite.signbridge
+        PRODUCT_NAME: SignBridge
+        INFOPLIST_FILE: SignBridge/Supporting/Info.plist
+        CODE_SIGN_ENTITLEMENTS: SignBridge/Supporting/SignBridge.entitlements
+        ENABLE_HARDENED_RUNTIME: true
+        COMBINE_HIDPI_IMAGES: true
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        LD_RUNPATH_SEARCH_PATHS: "@executable_path/../Frameworks"
+        # Agent-style menu bar app — no Dock icon by default
+        INFOPLIST_KEY_LSUIElement: true
+        INFOPLIST_KEY_NSHumanReadableCopyright: "Copyright © Hunchbite Technologies"
+        GENERATE_INFOPLIST_FILE: false
+    entitlements:
+      path: SignBridge/Supporting/SignBridge.entitlements
